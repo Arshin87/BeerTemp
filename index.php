@@ -5,23 +5,25 @@
         <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-	<div>
-		<h1>Beer Temp</h1>
-	</div>
+    <div>
+        <h1>Beer Temp</h1>
+    </div>
 
-	<div id="menu">
-	    <button =type"button"
-	        onclick="toggle('listTemps')">All
-	    </button>
+    <div id="menu" class="clearfix">
+        <button =type"button class="button" id="buttonAll"
+            onclick="toggle('listTemps')">All
+        </button>
 
-	    <button =type"button"
-	    	onclick="toggle('list24h')">24h
-	    </button>
+        <button =type"button class="button" id="button24H"
+            onclick="toggle('list24h')">24h
+        </button>
 
-	    <button =type"button"
-	        onclick="toggle('ListLastHour')">Last Hour
-	    </button>
- 	</div>
+        <button =type"button class="button" id="buttonLastH"
+            onclick="toggle('ListLastHour')">Last Hour
+        </button>
+    </div>
+
+    <div id="main">
 
         <p id="listTemps" style="display:none">
         <?php
@@ -113,17 +115,17 @@
         $conn->close();
         ?>
         </p>
-
+    </div>
         <script>
-        	function toggle(a){
-        		var x = document.getElementById(a);
-	        	if (x.style.display === "none"){
-	        			x.style.display = "block";
-	        		} else {
-	        			x.style.display = "none";
-	        		}
+            function toggle(a){
+                var x = document.getElementById(a);
+                if (x.style.display === "none"){
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
 
-        	}
+            }
         </script>
 
 </body>
