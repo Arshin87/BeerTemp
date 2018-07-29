@@ -11,7 +11,7 @@
 
 	<div id="menu">
 	    <button =type"button"
-	        onclick="toggle('listTemps')">All
+	        onclick="toggle(listTemps)">All
 	    </button>
 
 	    <button =type"button"
