@@ -11,7 +11,7 @@
 
 	<div id="menu">
 	    <button =type"button"
-	        onclick="document.getElementById('listTemps').style.display = 'block'">All
+	        onclick="toggle('listTemps')">All
 	    </button>
 
 	    <button =type"button"
@@ -113,6 +113,17 @@
         $conn->close();
         ?>
         </p>
+
+        <script>
+        	function toggle(buttonElement){
+        		var x = document.getElementById(buttonElement);
+        		if (x.display === "none"){
+        			x.style.display = "block";
+        		} else {
+        			x.style.display = "none";
+        		}
+        	}
+        </script>
 
 </body>
 </html>
