@@ -23,7 +23,7 @@
 	    </button>
  	</div>
 
-        <p id="listTemps" style="display:none">
+        <p id="listTemps">
         <?php
         $servername = "localhost";
         $username = "WebService";
@@ -117,11 +117,11 @@
         <script>
         	function toggle(buttonSel){
         		var x = document.getElementById(buttonSel);
-        		if (x.display != "none"){
-        			x.style.display = "block";
-        		} else {
-        			x.style.display != "none";
-        		}
+	        		if (x.display === "none"){
+	        			x.style.display = "block";
+	        		} else {
+	        			x.style.display = "none";
+	        		}
 
         	}
         </script>
