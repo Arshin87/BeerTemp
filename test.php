@@ -15,15 +15,15 @@
 	    </button>
 
 	    <button =type"button"
-	    	onclick="document.getElementById('list24h').style.display = 'block'">24h
+	    	onclick="toggle('list24h')">24h
 	    </button>
 
 	    <button =type"button"
-	        onclick="document.getElementById('ListLastHour').style.display = 'block'">Last Hour
+	        onclick="toggle('ListLastHour')">Last Hour
 	    </button>
  	</div>
 
-        <p id="listTemps">
+        <p id="listTemps" style="display:none">
         <?php
         $servername = "localhost";
         $username = "WebService";
