@@ -2,6 +2,7 @@
 <html>
 <head>
         <title>Beer Temp</title>
+        <link href="styles.css" rel="stylesheet">
 </head>
 <body>
 	<div>
@@ -21,7 +22,7 @@
 	        onclick="document.getElementById('ListLastHour').style.display = 'block'">Last Hour
 	    </button>
  	</div>
- 	
+
         <p id="listTemps" style="display:none">
         <?php
         $servername = "localhost";
