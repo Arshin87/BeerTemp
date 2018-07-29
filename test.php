@@ -115,9 +115,9 @@
         </p>
 
         <script>
-        	function toggle(buttonSel){
-        		var x = document.getElementById(buttonSel);
-	        		if (x.display === "none"){
+        	function toggle(a){
+        		var x = document.getElementById(a);
+	        	if (x.style.display === "none"){
 	        			x.style.display = "block";
 	        		} else {
 	        			x.style.display = "none";
