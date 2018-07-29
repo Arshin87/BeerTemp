@@ -23,6 +23,8 @@
 	    </button>
  	</div>
 
+ 	<div id="main">
+
         <p id="listTemps" style="display:none">
         <?php
         $servername = "localhost";
@@ -113,7 +115,7 @@
         $conn->close();
         ?>
         </p>
-
+    </div>
         <script>
         	function toggle(a){
         		var x = document.getElementById(a);
