@@ -11,7 +11,7 @@
 
 	<div id="menu">
 	    <button =type"button"
-	        onclick="toggle()">All
+	        onclick="toggle('listTemps')">All
 	    </button>
 
 	    <button =type"button"
@@ -115,12 +115,12 @@
         </p>
 
         <script>
-        	function toggle(){
-        		var x = document.getElementById("listTemps");
+        	function toggle(buttonSel){
+        		var x = document.getElementById(buttonSel);
         		if (x.display != "none"){
         			x.style.display = "block";
         		} else {
-        			x.style.display = "none";
+        			x.style.display != "none";
         		}
 
         	}
