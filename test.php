@@ -10,7 +10,7 @@
 	</div>
 
 	<div id="menu">
-	    <button =type"button"
+	    <button =type"button class="button"
 	        onclick="toggle('listTemps')">All
 	    </button>
 
