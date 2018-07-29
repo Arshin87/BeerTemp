@@ -10,15 +10,15 @@
 	</div>
 
 	<div id="menu">
-	    <button =type"button class="button"
+	    <button =type"button class="button" id="buttonAll"
 	        onclick="toggle('listTemps')">All
 	    </button>
 
-	    <button =type"button class="button"
+	    <button =type"button class="button" id="button24H"
 	    	onclick="toggle('list24h')">24h
 	    </button>
 
-	    <button =type"button class="button"
+	    <button =type"button class="button" id="buttonLastH"
 	        onclick="toggle('ListLastHour')">Last Hour
 	    </button>
  	</div>
