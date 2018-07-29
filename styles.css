@@ -2,6 +2,12 @@ body {
 	background-color: #e1ede9;
 }
 
+#menu{
+	margin: auto;
+	width: 75%;
+	padding: 10px;
+
+}
 
 .button{
 	background-color: #4CAF50;
