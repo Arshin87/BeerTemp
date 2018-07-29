@@ -115,6 +115,7 @@
         </p>
 
         <script>
+        	var buttonElement = none;
         	function toggle(buttonElement){
         		var x = document.getElementById(buttonElement);
         		if (x.display === "none"){
@@ -122,6 +123,7 @@
         		} else {
         			x.style.display = "none";
         		}
+
         	}
         </script>
 
