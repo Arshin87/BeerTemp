@@ -14,11 +14,11 @@
 	        onclick="toggle('listTemps')">All
 	    </button>
 
-	    <button =type"button"
+	    <button =type"button class="button"
 	    	onclick="toggle('list24h')">24h
 	    </button>
 
-	    <button =type"button"
+	    <button =type"button class="button"
 	        onclick="toggle('ListLastHour')">Last Hour
 	    </button>
  	</div>
