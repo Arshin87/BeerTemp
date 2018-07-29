@@ -9,7 +9,7 @@
 		<h1>Beer Temp</h1>
 	</div>
 
-	<div id="menu" class="clearfix">
+	<div id="menu">
 	    <button =type"button"
 	        onclick="toggle('listTemps')">All
 	    </button>
