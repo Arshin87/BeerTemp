@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title></title>
+        <title>Beer Temp</title>
 </head>
 <body>
+	<div>
+		<h1>Beer Temp</h1>
+	</div>
 
-     <button =type"button"
-        onclick="document.getElementById('listTemps').style.display = 'block'">All
-     </button>
+	<div id="menu">
+	    <button =type"button"
+	        onclick="document.getElementById('listTemps').style.display = 'block'">All
+	    </button>
 
-      <button =type"button"
-        onclick="document.getElementById('list24h').style.display = 'block'">24h
-     </button>
+	    <button =type"button"
+	    	onclick="document.getElementById('list24h').style.display = 'block'">24h
+	    </button>
 
-     <button =type"button"
-        onclick="document.getElementById('ListLastHour').style.display = 'block'">Last Hour
-     </button>
-
+	    <button =type"button"
+	        onclick="document.getElementById('ListLastHour').style.display = 'block'">Last Hour
+	    </button>
+ 	</div>
+ 	
         <p id="listTemps" style="display:none">
         <?php
         $servername = "localhost";
