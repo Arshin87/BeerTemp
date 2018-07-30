@@ -118,6 +118,7 @@
     </div>
         <script>
         	function toggle(a){
+                cleanDiv(main);
         		var x = document.getElementById(a);
 	        	if (x.style.display === "none"){
 	        			x.style.display = "block";
@@ -128,7 +129,7 @@
         	}
             function cleanDiv(element){
                 var x = document.getElementById(element);
-                x.innerHTML = ""
+                x.innerHTML = "";
             }
         </script>
 
