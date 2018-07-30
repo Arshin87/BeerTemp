@@ -126,6 +126,10 @@
 	        		}
 
         	}
+            function cleanDiv(element){
+                var x = document.getElementById(element);
+                x.innerHTML = ""
+            }
         </script>
 
 </body>
