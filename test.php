@@ -118,7 +118,7 @@
     </div>
         <script>
         	function toggle(a){
-                cleanDiv(main);
+                
         		var x = document.getElementById(a);
 	        	if (x.style.display === "none"){
 	        			x.style.display = "block";
